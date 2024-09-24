@@ -137,20 +137,6 @@ begin
     htrans = 2'b11; // SEQ
     hwdata = 'hCAFEBABE;
 
-    // #100
-    // haddr = 'h00000000;
-    // hwrite = 1'b1; // write transfer (= HIGH)
-    // // Indicates the transfer type, i.e. IDLE (b00), BUSY (b01), NONSEQUENTIAL (b10), SEQUENTIAL (b11) for Master 0
-    // htrans = 2'b10;
-    // hwdata = 'hCAFEBABE;
-
-    // #100
-    // haddr = 'h00000000;
-    // hwrite = 1'b1; // write transfer (= HIGH)
-    // // Indicates the transfer type, i.e. IDLE (b00), BUSY (b01), NONSEQUENTIAL (b10), SEQUENTIAL (b11) for Master 0
-    // htrans = 2'b10;
-    // hwdata = 'hCAFEBABE;
-
     //
     // Read transfer
     //
@@ -160,37 +146,13 @@ begin
     hwrite = 1'b0; // read transfer (= LOW)
     // Indicates the transfer type, i.e. IDLE (b00), BUSY (b01), NONSEQUENTIAL (b10), SEQUENTIAL (b11) for Master 0
     htrans = 2'b10; // NONSEQ
-    //hwdata = 'h00000000;
 
     #100
     haddr = 'h00000000;
     hwrite = 1'b0; // read transfer (= LOW)
     // Indicates the transfer type, i.e. IDLE (b00), BUSY (b01), NONSEQUENTIAL (b10), SEQUENTIAL (b11) for Master 0
     htrans = 2'b11; // SEQ
-    //hwdata = 'h00000000;
 
-    // #100
-    // haddr = 'h00000000;
-    // hwrite = 1'b0; // read transfer (= LOW)
-    // // Indicates the transfer type, i.e. IDLE (b00), BUSY (b01), NONSEQUENTIAL (b10), SEQUENTIAL (b11) for Master 0
-    // htrans = 2'b11;
-    // //hwdata = 'h00000000;
-
-    // #100
-    // haddr = 'h00000000;
-    // hwrite = 1'b0; // read transfer (= LOW)
-    // // Indicates the transfer type, i.e. IDLE (b00), BUSY (b01), NONSEQUENTIAL (b10), SEQUENTIAL (b11) for Master 0
-    // htrans = 2'b11;
-    // //hwdata = 'h00000000;
-
-    //#200
-    // Initiate transfer task :
-    // issues m consecutive transfers with randomized parameters (addr, size, width, etc.)
-    //initiate_transfer(5000);
-
-    //#1000
-    //$display("\n -----------------------");
-    //$display("\n ALL tests have passed - Hallelujah!");
 end
 
 endmodule
