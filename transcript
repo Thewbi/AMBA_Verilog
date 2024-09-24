@@ -1,0 +1,733 @@
+# Compile of AHB_slave.sv was successful.
+# Compile of AHB_slave_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AHB_slave.sv was successful.
+# Compile of AHB_slave_testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 13:59:13 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 13:59:13 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 13:59:22 on Sep 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk
+# Load canceled
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/haddr
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/hwdata
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/hreadyout
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/hresp
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+run
+run
+run
+quit -sim
+# End time: 15:33:59 on Sep 24,2024, Elapsed time: 1:34:37
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:34:03 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 15:34:03 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:34:06 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 15:34:07 on Sep 24,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:34:10 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 15:34:10 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 15:34:12 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:36:52 on Sep 24,2024, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:38:20 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 15:38:20 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:38:33 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 15:38:33 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:38:35 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 15:38:35 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 15:38:36 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:42:15 on Sep 24,2024, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:42:19 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 15:42:19 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:42:22 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 15:42:22 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 15:42:26 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+# ** Error (suppressible): (vsim-3839) Variable '/AHB_slave_testbench/hreadyout', driven via a port connection, is multiply driven. See C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv(63).
+#    Time: 0 ps  Iteration: 0  Instance: /AHB_slave_testbench File: C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv Line: 94
+# Error loading design
+# End time: 15:42:27 on Sep 24,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:43:09 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 15:43:10 on Sep 24,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 15:43:13 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata
+run
+run
+run
+quit -sim
+# End time: 15:48:08 on Sep 24,2024, Elapsed time: 0:04:55
+# Errors: 0, Warnings: 2
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 15:48:14 on Sep 24,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+quit -sim
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# End time: 15:48:33 on Sep 24,2024, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:48:33 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 15:48:33 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 15:48:35 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 15:48:35 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 15:48:38 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:00:43 on Sep 24,2024, Elapsed time: 0:12:05
+# Errors: 0, Warnings: 2
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:00:46 on Sep 24,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+quit -sim
+# End time: 16:00:58 on Sep 24,2024, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:01:01 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:01:01 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:01:05 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:01:05 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:01:07 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 16:01:07 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:01:10 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:08:20 on Sep 24,2024, Elapsed time: 0:07:10
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:08:22 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:08:22 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:08:24 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 16:08:25 on Sep 24,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:08:26 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:21:37 on Sep 24,2024, Elapsed time: 0:13:11
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:21:40 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:21:40 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:21:43 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 16:21:43 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Load canceled
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:21:54 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:22:33 on Sep 24,2024, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:24:04 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:24:04 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:24:07 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:33:30 on Sep 24,2024, Elapsed time: 0:09:23
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:33:33 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:33:33 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:33:36 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 16:33:36 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:33:39 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+quit -sim
+# End time: 16:34:26 on Sep 24,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:34:32 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave.sv 
+# -- Compiling module AHB_slave
+# 
+# Top level modules:
+# 	AHB_slave
+# End time: 16:34:32 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:34:34 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:34:34 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:34:38 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:35:07 on Sep 24,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+vlog -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 16:36:23 on Sep 24,2024
+# vlog -reportprogress 300 -work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact C:/Users/wolfg/dev/verilog/amba_ahb_apb/AHB_slave_testbench.sv 
+# -- Compiling module AHB_slave_testbench
+# 
+# Top level modules:
+# 	AHB_slave_testbench
+# End time: 16:36:23 on Sep 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.AHB_slave_testbench
+# vsim -voptargs="+acc" work.AHB_slave_testbench 
+# Start time: 16:36:25 on Sep 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.AHB_slave_testbench(fast)
+# Loading work.AHB_slave(fast)
+add wave -position insertpoint  \
+sim:/AHB_slave_testbench/clk \
+sim:/AHB_slave_testbench/resetn \
+sim:/AHB_slave_testbench/hsel \
+sim:/AHB_slave_testbench/haddr \
+sim:/AHB_slave_testbench/hwrite \
+sim:/AHB_slave_testbench/hsize \
+sim:/AHB_slave_testbench/htrans \
+sim:/AHB_slave_testbench/hwdata \
+sim:/AHB_slave_testbench/hreadyout \
+sim:/AHB_slave_testbench/hresp \
+sim:/AHB_slave_testbench/hrdata \
+sim:/AHB_slave_testbench/hreadyin
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:48:16 on Sep 24,2024, Elapsed time: 0:11:51
+# Errors: 0, Warnings: 2
